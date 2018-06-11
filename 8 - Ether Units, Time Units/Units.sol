@@ -1,10 +1,23 @@
-pragma solidity ^0.4.16; 
+pragma solidity ^0.4.16;
 
 /*
 * @title A Units & Global Variables Example
 * @author Toshendra Sharma
 * @notice Example for the Solidity Course
 */
+
+
+contract Units  {
+
+  /* Ether: wei, finney, szabo, ether */
+
+  bool isEqual = (2 ether == 2000 finney);
+
+  bool isEqual = (1 == 1 seconds);
+
+  uint timestamp = now;
+}
+
 
 contract Units {
 
@@ -15,7 +28,7 @@ contract Units {
     msg.gas; // remaining gas
     msg.sig; // return the first four bytes of the call data
 
-    
+
 
     // similarly tx represent the current transaction
     tx.origin; // address of sender of the transaction
