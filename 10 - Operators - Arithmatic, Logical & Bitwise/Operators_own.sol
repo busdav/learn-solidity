@@ -7,7 +7,15 @@ pragma solidity ^0.4.16;
 */
 
 contract Operators {
+
+  2**3
+  a++, --a, a--, ++a,
   
+
+
+
+
+
 
     // Arithmatic Operators
     uint a = 10;
