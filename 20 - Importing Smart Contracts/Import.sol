@@ -1,5 +1,5 @@
 pragma solidity ^0.4.9;
-import "./owned.sol";
+/* import "./owned.sol"; */
 
 // import * as symbolName from "filename"; or import "filename" as symbolName; both are same
 // import {symbol1 as alias, symbol2} from "filename";
@@ -21,6 +21,3 @@ contract User is owned, mortal{
         UserName = _name;
     }
 }
-
-
-
